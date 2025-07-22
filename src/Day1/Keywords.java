@@ -1,4 +1,4 @@
-package Mypackage;
+package Day1;
 
 public class Keywords {
 	    public static void main(String[] args) {

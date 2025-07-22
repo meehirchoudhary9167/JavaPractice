@@ -1,4 +1,4 @@
-package OOPS;
+package Day3;
 
 interface PaymentMode {
     void pay(double amount);

@@ -1,4 +1,4 @@
-package Mypackage;
+package Day1;
 
 public class StaticMethodExample {
     public static void display() {

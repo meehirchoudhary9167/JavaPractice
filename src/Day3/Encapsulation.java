@@ -1,4 +1,4 @@
-package OOPS;
+package Day3;
 
 class Employee {
     private String name;

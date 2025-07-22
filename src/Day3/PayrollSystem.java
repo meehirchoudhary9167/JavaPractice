@@ -1,4 +1,4 @@
-package OOPS;
+package Day3;
 
 abstract class AbstractEmployee {
     String name;

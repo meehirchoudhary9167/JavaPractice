@@ -1,4 +1,4 @@
-package Mypackage;
+package Day1;
 import java.util.Scanner;
 
 public class UserInputData {

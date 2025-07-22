@@ -1,4 +1,4 @@
-package Mypackage;
+package Day1;
 
 public class PrimitiveExample {
     public static void main(String[] args) {
