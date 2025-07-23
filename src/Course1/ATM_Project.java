@@ -1,4 +1,4 @@
-package Course1_Project_ATM;
+package Course1;
 import java.util.Scanner;
 public class ATM_Project {
     private double balance;
