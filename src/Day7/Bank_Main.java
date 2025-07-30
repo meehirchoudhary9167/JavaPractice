@@ -37,7 +37,6 @@ public class Bank_Main {
 
         Bank_mul b1 = new Bank_mul(1000.0);
 
-        // Deposit Thread
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 3; i++) {
                 b1.deposit(200.0);
@@ -45,7 +44,6 @@ public class Bank_Main {
             }
         }, "Deposi so t-Thread");
 
-        // Withdraw Thread
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < 3; i++) {
                 b1.withdraw(150.0);
@@ -53,18 +51,15 @@ public class Bank_Main {
             }
         }, "Withdraw-Thread");
 
-        // Start both threads
         t1.start();
         t2.start();
 
-        // Wait for both threads to finish
         t1.join();
         t2.join();
 
         System.out.printf("Final Balance = %.2f\n", b1.getBalance());
     }
 
-    // Sleep method used to pause thread for given milliseconds
     private static void sleep(int millis) {
         try {
             Thread.sleep(millis);
