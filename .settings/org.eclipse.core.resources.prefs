@@ -1,4 +1,13 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 encoding//src/main/java=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8
+=======
+encoding//src/Day3/EcommerceApp.java=UTF-8
+encoding//src/Day3/Encapsulation.java=UTF-8
+encoding//src/Day3/Payment.java=UTF-8
+encoding//src/Day3/PayrollSystem.java=UTF-8
+encoding//src/Day4/RealEstateLambda.java=UTF-8
+encoding/<project>=windows-1252
+>>>>>>> 0658f34adf3dd72bb7451f5237dcfa4d229a7de0
